@@ -470,7 +470,7 @@ You can receive rich notifications on your phone when someone rings a Reolink do
 
 - Turn on (outdoor) lights near the camera to improve image clarity at night once the camera detects a person/vehicle/animal.
 - Turn off notifications and recording when you get home (based on e.g. geofencing) and turn it back on when you leave home.
-- Play ringtones on speakers (echo dot/google home/smart hubs) throughout the house when someone presses the doorbell.
+- Play ringtones on speakers (echo dot/Google home/smart hubs) throughout the house when someone presses the doorbell.
 - Pause a TV and show a notification badge on the TV when the doorbell is pressed (only when the TV is already on).
 - Play the quick replay messages of a Reolink doorbell only when not home (geofencing)
 - Wake up and start recording on other battery cameras nearby if one camera/motion sensor detects a event.
@@ -478,9 +478,9 @@ You can receive rich notifications on your phone when someone rings a Reolink do
 - If a camera detects a person/vehicle/animal then point other PTZ camaras in that direction using PTZ presets
 - Switch day night mode (Color/IR Black&White) based on sunset/sunrise times or the status of (outdoor) lights instead of relying on the internal light sensor.
 - Change the camera volume based on the time and/or when you are Home or not (geofencing)
-- Increase framerate and maximum bitrate of a camera when a person/vehicle/animal is detected and lower it again after 1 minute of no detection. This safes storage space so you can record longer when recording 24/7 withouth compromising image clearity during events.
+- Increase framerate and maximum bitrate of a camera when a person/vehicle/animal is detected and lower it again after 1 minute of no detection. This safes storage space so you can record longer when recording 24/7 without compromising image clarity during events.
 - Turn on indoor lights close to windows in a sequence with some time delays if a camera detects a person to make it look like someone is home.
-- Show a camera stream full screen on a wallpanel/tablet/google home display when someone rings the doorbell.
+- Show a camera stream full screen on a wallpanel/tablet/Google home display when someone rings the doorbell.
 - Switch HDR mode of the camera based on sunset/sunrise
 - Make a input boolean helper to easily disable notifications on all cameras and automatically enable notifications again after 1 hour.
 
