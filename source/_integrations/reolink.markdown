@@ -464,7 +464,7 @@ For example, you can place arrow buttons on the card to [control the camera](/da
 
 ### Sending rich notifications
 
-You can receive rich notifications on your phone when someone rings a Reolink doorbell or a Reolink camera detects a event like motion or a person.
+You can receive rich notifications on your phone when someone rings a Reolink doorbell or a Reolink camera detects an event like motion or a person.
 
 ### Automation ideas
 
