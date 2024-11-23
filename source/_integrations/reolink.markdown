@@ -455,10 +455,34 @@ Removing a chime from a doorbell can be done by deleting the chime following the
 
 This will also decouple the chime from the doorbell in the Reolink app/client. Therefore, the chime will no longer ring when the doorbell is pressed.
 
-## Showing the camera in the dashboard
+## Examples
 
-1. One way to show the camera in the dashboard is by using the picture glance card.
-2. For example, you can place arrow buttons on the card to [control the camera](/dashboards/picture-glance/#creating-a-card-to-control-the-camera).
+### Showing the camera in the dashboard
+
+One way to show the camera in the dashboard is by using the picture glance card.
+For example, you can place arrow buttons on the card to [control the camera](/dashboards/picture-glance/#creating-a-card-to-control-the-camera).
+
+### Sending rich notifications
+
+You can receive rich notifications on your phone when someone rings a Reolink doorbell or a Reolink camera detects a event like motion or a person.
+
+### Automation ideas
+
+- Turn on (outdoor) lights near the camera to improve image clarity at night once the camera detects a person/vehicle/animal.
+- Turn off notifications and recording when you get home (based on e.g. geofencing) and turn it back on when you leave home.
+- Play ringtones on speakers (echo dot/google home/smart hubs) throughout the house when someone presses the doorbell.
+- Pause a TV and show a notification badge on the TV when the doorbell is pressed (only when the TV is already on).
+- Play the quick replay messages of a Reolink doorbell only when not home (geofencing)
+- Wake up and start recording on other battery cameras nearby if one camera/motion sensor detects a event.
+- Turn on spotlights/sirens of other cameras nearby when one camera detects a person/vehicle/animal.
+- If a camera detects a person/vehicle/animal then point other PTZ camaras in that direction using PTZ presets
+- Switch day night mode (Color/IR Black&White) based on sunset/sunrise times or the status of (outdoor) lights instead of relying on the internal light sensor.
+- Change the camera volume based on the time and/or when you are Home or not (geofencing)
+- Increase framerate and maximum bitrate of a camera when a person/vehicle/animal is detected and lower it again after 1 minute of no detection. This safes storage space so you can record longer when recording 24/7 withouth compromising image clearity during events.
+- Turn on indoor lights close to windows in a sequence with some time delays if a camera detects a person to make it look like someone is home.
+- Show a camera stream full screen on a wallpanel/tablet/google home display when someone rings the doorbell.
+- Switch HDR mode of the camera based on sunset/sunrise
+- Make a input boolean helper to easily disable notifications on all cameras and automatically enable notifications again after 1 hour.
 
 ## Troubleshooting
 
